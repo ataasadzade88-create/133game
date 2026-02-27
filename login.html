@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+<meta charset="UTF-8">
+<title>ورود</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="login-box">
+  <h2>Galaxy Login</h2>
+
+  <form id="loginForm">
+    <div class="input-box">
+      <input type="text" id="username" required>
+      <label>نام کاربری</label>
+    </div>
+
+    <div class="input-box">
+      <input type="password" id="password" required>
+      <label>رمز عبور</label>
+      <span id="togglePassword">👁️</span>
+    </div>
+
+    <button type="submit">ورود</button>
+  </form>
+
+  <p>اکانت نداری؟ <a href="signup.html">ایجاد کن</a></p>
+</div>
+
+<div id="toast"></div>
+
+<audio id="engineSound" src="engine.mp3"></audio>
+
+<script src="app.js"></script>
+</body>
+</html>
